@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 
 export const Header = () => {
     const MENU = [
-        {path:'/',name: 'Home'},
+        {path:'/home',name: 'Home'},
         {path:'/teachers',name: 'Teachers Nativos'},
         {path:'/clases',name: 'Clases'},
         {path:'/faqs',name: 'FAQs'},
@@ -19,7 +19,7 @@ export const Header = () => {
         <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand>
-             <Link to="/">
+             <Link to="/home">
              <img
                   src="../logo.png"
                   height="auto"

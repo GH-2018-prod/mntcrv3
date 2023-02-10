@@ -1,4 +1,5 @@
-//export * from '../pages/pages/Home'
+export * from '../Pages/Home/Home'
+export * from '../Pages/Teachers/Teachers'
 //export * from '../pages/pages/Header'
 //export * from '../pages/pages/HomeCarousel'
 //export * from '../pages/pages/Footer'
