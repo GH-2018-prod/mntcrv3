@@ -1,4 +1,4 @@
-import { Header } from "../Header/Header"
+import { Header } from "../"
 import { Footer } from "../Footer/Footer"
 import { TeachersContent } from "./TeachersContent"
 

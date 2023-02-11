@@ -1,5 +1,5 @@
 import { HomeCarousel } from "./HomeCarousel"
-import { Header } from "../Header/Header"
+import { Header } from "../"
 import { Footer } from "../Footer/Footer"
 
 export const Home = () => {
