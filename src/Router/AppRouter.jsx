@@ -5,7 +5,7 @@ import { Home, Teachers } from "../Pages"
 export const AppRouter = () => {
   return (
     <Routes>
-        <Route path="/home" element={ <Home/> }/>
+        <Route path="/*" element={ <Home/> }/>
         <Route path="/teachers" element={ <Teachers /> }/>
     </Routes>
   )
