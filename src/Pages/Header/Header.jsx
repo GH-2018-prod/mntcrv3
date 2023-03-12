@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button';
 export const Header = () => {
     const MENU = [
         {path:'/home',name: 'Home'},
-        {path:'/teachers',name: 'Teachers Nativos'},
+        {path:'/teachers',name: 'Teachers'},
         {path:'/clases',name: 'Clases'},
         {path:'/faqs',name: 'FAQs'},
         {path:'/testimonios',name: 'Testimonios'}
