@@ -6,10 +6,10 @@ export const TeachersContent = () => {
   return (
 
     <Container >
-      <h1 className='pt-3 pb-4 text-center'>Los maestros mas extraordinarios</h1>
+      <h3 className='pt-3 pb-4 text-center'>"Teaching is a work of HEART"</h3>
       <Row className='pt-3 pb-4'>
-        <Col sm={8}>
-          <h2 className='pb-3 text-center'>Founder</h2>
+        <Col lg={8} md={6}>
+          <h4 className='pb-3 text-center'>Founder</h4>
           <p>
             Como propietaria de este campus, la prioridad desde sus inicios fue la enseninza conciente a partir de los maestros y hacia los estudiantes. Por esta razon, la comprension activa y conciente de todo el equipo de native teacher ha procuparado dar todo el conocimiento que poseemos.
           </p>
@@ -17,10 +17,10 @@ export const TeachersContent = () => {
             ponemos a la orden todos nuestros medios para que nuestros estudiantes alcancen todas sus metas
           </p>
           <p>
-            Mi nombre es Teacher Jennifer y les deseo lo mejor en este viaje!
+            Mi nombre es Teacher Jennifer y les deseo lo mejor en este viaje!s
           </p>
         </Col>
-        <Col sm={4}>
+        <Col lg={4} md={6}>
           <img src="loginimage.jpeg" alt="" width="200px"/>
           <p>
             <em>Teacher Jennifer</em>        
@@ -29,8 +29,8 @@ export const TeachersContent = () => {
       </Row>
 
       <Row  className='pt-3 pb-4'>
-        <Col sm={8}>
-          <h2 className='pb-3 text-center'>Teacher</h2>
+        <Col lg={8} md={6}>
+          <h4 className='pb-3 text-center'>Teacher</h4>
           <p>
             Mi pasion es enseniar. Cuando se trata de nuevos retos nunca estoy listo pero siempre estoy disponible para enfrentarlos.
           </p>
@@ -41,7 +41,7 @@ export const TeachersContent = () => {
             Soy Teacher Antonio y mi consejo es: Nunca le tengas miedo a lo nuevo. Enfrenta tus miedos! recuerda que solamente cayendo aprendemos a caminar, correr, etc...
           </p>
         </Col>
-        <Col sm={4}>
+        <Col lg={4} md={6}>
           <img src="loginimage.jpeg" alt="" width="200px"/>
           <p>
             <em>Teacher Antonio</em>        
@@ -50,8 +50,8 @@ export const TeachersContent = () => {
       </Row>
 
       <Row  className='pt-3 pb-4'>
-        <Col sm={8}>
-          <h2 className='pb-3 text-center'>Teacher</h2>
+        <Col lg={8} md={6}>
+          <h4 className='pb-3 text-center'>Teacher</h4>
           <p>
             Soy una persona aventurera. Como un buen boy scout siempre estoy listo. Hay retos en la vida que me dan miedo como fue el de empezar a enseniar. Me aterraba el hecho de hablar en publico pero gracias a que decide tomar el primer paso, ahora soy un feliz Teacher de My Native Teacher.
           </p>
@@ -62,7 +62,7 @@ export const TeachersContent = () => {
             Soy Teacher Patric y esto es lo que les aconsejo para que puedan aprender mejor: Nunca se desanimen. Sean constantes con sus aprendizaje y esto les dara frutos....
           </p>
         </Col>
-        <Col sm={4}>
+        <Col lg={4} md={6}>
           <img src="loginimage.jpeg" alt="" width="200px"/>
           <p>
             <em>Teacher Patric</em>        
