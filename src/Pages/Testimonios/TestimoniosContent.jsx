@@ -7,7 +7,7 @@ export const TestimoniosContent = ({ embedId }) => {
     <Container >
       <h3 className='pt-3 pb-4 text-center'>Somos mas que maestros. Somos amigos!</h3>
       <Row >
-        <Col>
+        <Col className='mb-5'>
           <h4 className='pb-3 text-center'>Excellent and easy!</h4>
           <p>
             Jennifer classes are an excellent and easy going way to practice your speaking English
@@ -34,7 +34,7 @@ export const TestimoniosContent = ({ embedId }) => {
       </Row>
       <Row className='p-5 text-center '>
         <Col className="video-responsive">
-          <h2>YANCI s VIDEO GOES HERE</h2>
+          <h4>VIDEO GOES HERE</h4>
           <iframe
             width="600"
             height="400"
@@ -48,32 +48,23 @@ export const TestimoniosContent = ({ embedId }) => {
       </Row>
 
       <Row className='pb-4'>
-        <Col>
-          <h2 className='pb-3 text-center'>Impresionante</h2>
+        <Col className='mb-5'>
+          <h4 className='pb-3 text-center'>Dynamic and fun classes</h4>
           <p>
-            Jennifer classes are an excellent and easy going way to practice your speaking English
-            skills every week. One of the aspects that I valued the most of her classes, is that she
-            promotes a safe space so you can feel comfortable expressing and practicing all the things
-            you feel are needed to work on. An extra but appreciated other thing is that you also have
-            the chance to meet and interact with very nice people, with who you share not only the
-            interest of growing in this language but algo experiment the richness in the interaction with
-            other perspectives in all the different and interest topics that we touch together every class.
+          The English classes with Jennifer are the best classes that I have taken in my life, I don’t exaggerate. She provides me material and tips for improve my pronunciation. Her classes are dynamic and we can practice with interesting topics. These classes help me to feel more confident and comfortable when speaking. Over the years in the classes, I have improved a lot my English skills and I will continue because the language is the key to the future.  If you have the opportunity the learn English, I would recommend Jennifer’s Classes, you will notice the difference.
           </p>
           <em>
-            <b>Sabrosillo Loasiga</b>
+            <b>Anabelle Altamirano Carvajal</b>
           </em>
         </Col>
 
         <Col>
-          <h2 className='pb-3 text-center'>Recomendado</h2>
+          <h4 className='pb-3 text-center'>Perdi el miedo a hablar</h4>
           <p>
-            Jennifer classes are an excellent and easy going way to practice your speaking English
-            skills every week. One of the aspects that I valued the most of her classes, is that she
-            promotes a safe space so you can feel comfortable expressing and practicing all the things
-            you feel are needed to work on. An extra but appreciated other thing is that you also have
+          Teacher Jennifer es muy comprometida con sus estudiantes. Sus clases son 100% conversacionales, desde el primer momento mejoré mis bloqueos  y perder el miedo al hablar. Se enfocan mucho en pronunciación. Es amable y amena.
           </p>
           <em>
-            <b>Rosa de la concepcion</b>
+            <b>Arellys Granados Morales</b>
           </em>
         </Col>
       </Row>
