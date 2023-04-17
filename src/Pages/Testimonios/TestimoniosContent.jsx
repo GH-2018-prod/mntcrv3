@@ -35,14 +35,17 @@ export const TestimoniosContent = () => {
         </Col>
       </Row>
 
-      <Row className="p-5 text-center border border-danger">
-        <Col className="video-responsive border border-primary">
-          <h4 className="pb-3 text-center">Madeline's experience</h4>
+      <Row className="p-5 text-center">
+        <Col className="video-responsive">
+          <h4 className="pb-3 text-center">
+            Madeline's experience
+          </h4>
           <ReactPlayer
-          className="border border-primary pb-3"                
-          url="../video_testimonio.mp4"
-          border= "2px solid black"
-          width="100%"
+            className="pb-3"                
+            url="../video_testimonio.mp4"
+            width="100%"
+            controls
+            volume={0.5}
           />
         </Col>
       </Row>
