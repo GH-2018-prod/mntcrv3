@@ -1,8 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ReactPlayer from 'react-player';
 
-export const TestimoniosContent = ({ embedId }) => {
+
+export const TestimoniosContent = () => {
   return (
     <Container >
       <h3 className='pt-3 pb-4 text-center'>Somos mas que maestros. Somos amigos!</h3>
@@ -32,17 +34,15 @@ export const TestimoniosContent = ({ embedId }) => {
           </em>
         </Col>
       </Row>
-      <Row className='p-5 text-center '>
-        <Col className="video-responsive">
-          <h4>VIDEO GOES HERE</h4>
-          <iframe
-            width="600"
-            height="400"
-            src={`https://www.youtube.com/embed/${embedId}`}
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title="Embedded youtube"
+
+      <Row className="p-5 text-center border border-danger">
+        <Col className="video-responsive border border-primary">
+          <h4 className="pb-3 text-center">Madeline's experience</h4>
+          <ReactPlayer
+          className="border border-primary pb-3"                
+          url="../video_testimonio.mp4"
+          border= "2px solid black"
+          width="100%"
           />
         </Col>
       </Row>
@@ -96,7 +96,4 @@ export const TestimoniosContent = ({ embedId }) => {
       
     </Container>
   )
-  YoutubeEmbed.propTypes = {
-    embedId: PropTypes.string.isRequired
-  };
 }

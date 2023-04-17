@@ -36,6 +36,7 @@ header{
     left: 0;
     z-index: 2;
   }
+  
   hr{
     margin: 0.85rem;
   }
@@ -52,6 +53,7 @@ header{
 main{
   //@media (min-width: 400px)
   @include media-breakpoint-down(md) {
+    
     .row{
       flex-direction: column;
     }
