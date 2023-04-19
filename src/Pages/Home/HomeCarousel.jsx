@@ -10,7 +10,7 @@ export const HomeCarousel = () => {
           <img
             id="header1"
             className="d-block w-100"
-            src={ isMobile ?  "../mob_header1_1600x600.jpg" : "../header1_1600x600.jpeg" }
+            src={ isMobile ?  "../adultos_1200x1200.jpeg" : "../adultos_1600x600.jpeg" }
             alt="First slide"
           />
         </Link>
@@ -20,7 +20,7 @@ export const HomeCarousel = () => {
         <Link to="/clases">
           <img
             className="d-block w-100"
-            src={ isMobile ?  "../mob_header1_1600x600.jpg" : "../header2_1600x600.jpeg" }
+            src={ isMobile ?  "../ninos_1200x1200.jpeg" : "../ninos_1600x600.jpeg" }
             alt="Second slide"
           />
         </Link>
@@ -30,7 +30,7 @@ export const HomeCarousel = () => {
       <Link to="/clases">
         <img
           className="d-block w-100"
-          src={ isMobile ?  "../mob_header1_1600x600.jpg" : "../header1_1600x600.jpeg" }
+          src={ isMobile ?  "../adultos_1200x1200.jpeg" : "../adultos_1600x600.jpeg" }
           alt="Third slide"
         />
         </Link>
