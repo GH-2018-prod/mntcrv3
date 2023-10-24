@@ -32,27 +32,6 @@ export const TeachersContent = () => {
         <Col lg={8} md={6}>
           <h4 className='pb-3 text-center'>Teacher</h4>
           <p>
-            Mi pasion es enseniar. Cuando se trata de nuevos retos nunca estoy listo pero siempre estoy disponible para enfrentarlos.
-          </p>
-          <p>
-            El reto de nuevos idiomas, el reto a lo nuevo, el reto al etc etc. 
-          </p>
-          <p>
-            Soy Teacher Antonio y mi consejo es: Nunca le tengas miedo a lo nuevo. Enfrenta tus miedos! recuerda que solamente cayendo aprendemos a caminar, correr, etc...
-          </p>
-        </Col>
-        <Col lg={4} md={6}>
-          <img src="loginimage.jpeg" alt="" width="200px"/>
-          <p>
-            <em>Teacher Antonio</em>        
-          </p>
-        </Col>
-      </Row>
-
-      <Row  className='pt-3 pb-4'>
-        <Col lg={8} md={6}>
-          <h4 className='pb-3 text-center'>Teacher</h4>
-          <p>
             Soy una persona aventurera. Como un buen boy scout siempre estoy listo. Hay retos en la vida que me dan miedo como fue el de empezar a enseniar. Me aterraba el hecho de hablar en publico pero gracias a que decide tomar el primer paso, ahora soy un feliz Teacher de My Native Teacher.
           </p>
           <p>
