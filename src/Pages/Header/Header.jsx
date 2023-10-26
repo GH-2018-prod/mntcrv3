@@ -41,12 +41,14 @@ export const Header = () => {
                     </NavDropdown.Item>
                   ))
                 }  
+                    {/*
                     <NavDropdown.Item key={'login'}>
                      <Link to='/login' >
                       <Button variant='info'>Log in</Button>
                      </Link>
                      <hr />
-                    </NavDropdown.Item>     
+                    </NavDropdown.Item> 
+                    */ }   
             </Nav>
           </Navbar.Collapse>
         </Container>
